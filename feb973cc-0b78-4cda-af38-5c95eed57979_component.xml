@@ -1,0 +1,162 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">dabc854d-f50e-408a-b001-d043c7de151d</item>
+    <item name="Name" type_name="gh_string" type_code="10">Sphere</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Create a spherical surface.</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">feb973cc-0b78-4cda-af38-5c95eed57979</item>
+        <item name="Name" type_name="gh_string" type_code="10">Sphere</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Sph</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>443</X>
+              <Y>146</Y>
+              <W>64</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>474</X>
+              <Y>168</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Base plane</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">fa37573a-715e-4dd0-bf87-e47a061df7c2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Base</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">b6dcb4fc-7a92-4f01-b3b4-b7398f1bf56f</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>445</X>
+                  <Y>148</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>453.5</X>
+                  <Y>158</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="plane" type_name="gh_plane" type_code="72">
+                          <Ox>0</Ox>
+                          <Oy>0</Oy>
+                          <Oz>0</Oz>
+                          <Xx>1</Xx>
+                          <Xy>0</Xy>
+                          <Xz>0</Xz>
+                          <Yx>0</Yx>
+                          <Yy>1</Yy>
+                          <Yz>0</Yz>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Sphere radius</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">8c443a4a-eb79-4ec3-8630-4a88e886c98e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Radius</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">25b93c81-997b-4e4f-80f7-5b998dd1d8be</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>445</X>
+                  <Y>168</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>453.5</X>
+                  <Y>178</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Resulting sphere</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">03ff3534-23d6-4744-8915-803c41f42b90</item>
+            <item name="Name" type_name="gh_string" type_code="10">Sphere</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>489</X>
+                  <Y>148</Y>
+                  <W>16</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>497</X>
+                  <Y>168</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
